@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/Programming Projects/Android/RiftAR/RiftAR/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Raven\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build \"D:\\Programming Projects\\Android\\RiftAR\\RiftAR\\.externalNativeBuild\\cmake\\release\\x86_64\" --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\Raven\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build \"D:\\Programming Projects\\Android\\RiftAR\\RiftAR\\.externalNativeBuild\\cmake\\release\\x86_64\" --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain C:/Users/Raven/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Raven/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dnative_lib_EXPORTS -isystem C:\\Users\\Raven\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Raven\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\include -isystem C:\\Users\\Raven\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Programming Projects/Android/RiftAR/RiftAR/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/Programming Projects/Android/RiftAR/RiftAR/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "D:/Programming Projects/Android/RiftAR/RiftAR/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "2538133449"
+		}
+	},
+	"toolchains" : 
+	{
+		"2538133449" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Raven/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Raven/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
